@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFAF2C761D6BA6530055CD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2C751D6BA6530055CD76 /* AppDelegate.swift */; };
+		BFAF2C781D6BA6530055CD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2C771D6BA6530055CD76 /* ViewController.swift */; };
+		BFAF2C7B1D6BA6530055CD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAF2C791D6BA6530055CD76 /* Main.storyboard */; };
+		BFAF2C7D1D6BA6530055CD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAF2C7C1D6BA6530055CD76 /* Assets.xcassets */; };
+		BFAF2C801D6BA6530055CD76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAF2C7E1D6BA6530055CD76 /* LaunchScreen.storyboard */; };
+		BFAF2C8B1D6BA6530055CD76 /* Rainy_Shiny_Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2C8A1D6BA6530055CD76 /* Rainy_Shiny_Weather_AppTests.swift */; };
+		BFAF2C961D6BA6530055CD76 /* Rainy_Shiny_Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF2C951D6BA6530055CD76 /* Rainy_Shiny_Weather_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFAF2C871D6BA6530055CD76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAF2C6A1D6BA6530055CD76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAF2C711D6BA6530055CD76;
+			remoteInfo = "Rainy Shiny Weather App";
+		};
+		BFAF2C921D6BA6530055CD76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAF2C6A1D6BA6530055CD76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAF2C711D6BA6530055CD76;
+			remoteInfo = "Rainy Shiny Weather App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFAF2C721D6BA6530055CD76 /* Rainy Shiny Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainy Shiny Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAF2C751D6BA6530055CD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFAF2C771D6BA6530055CD76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFAF2C7A1D6BA6530055CD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFAF2C7C1D6BA6530055CD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFAF2C7F1D6BA6530055CD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFAF2C811D6BA6530055CD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAF2C861D6BA6530055CD76 /* Rainy Shiny Weather AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainy Shiny Weather AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAF2C8A1D6BA6530055CD76 /* Rainy_Shiny_Weather_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainy_Shiny_Weather_AppTests.swift; sourceTree = "<group>"; };
+		BFAF2C8C1D6BA6530055CD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAF2C911D6BA6530055CD76 /* Rainy Shiny Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainy Shiny Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAF2C951D6BA6530055CD76 /* Rainy_Shiny_Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainy_Shiny_Weather_AppUITests.swift; sourceTree = "<group>"; };
+		BFAF2C971D6BA6530055CD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFAF2C6F1D6BA6530055CD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2C831D6BA6530055CD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2C8E1D6BA6530055CD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFAF2C691D6BA6530055CD76 = {
+			isa = PBXGroup;
+			children = (
+				BFAF2C741D6BA6530055CD76 /* Rainy Shiny Weather App */,
+				BFAF2C891D6BA6530055CD76 /* Rainy Shiny Weather AppTests */,
+				BFAF2C941D6BA6530055CD76 /* Rainy Shiny Weather AppUITests */,
+				BFAF2C731D6BA6530055CD76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFAF2C731D6BA6530055CD76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2C721D6BA6530055CD76 /* Rainy Shiny Weather App.app */,
+				BFAF2C861D6BA6530055CD76 /* Rainy Shiny Weather AppTests.xctest */,
+				BFAF2C911D6BA6530055CD76 /* Rainy Shiny Weather AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFAF2C741D6BA6530055CD76 /* Rainy Shiny Weather App */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2C751D6BA6530055CD76 /* AppDelegate.swift */,
+				BFAF2C771D6BA6530055CD76 /* ViewController.swift */,
+				BFAF2C791D6BA6530055CD76 /* Main.storyboard */,
+				BFAF2C7C1D6BA6530055CD76 /* Assets.xcassets */,
+				BFAF2C7E1D6BA6530055CD76 /* LaunchScreen.storyboard */,
+				BFAF2C811D6BA6530055CD76 /* Info.plist */,
+			);
+			path = "Rainy Shiny Weather App";
+			sourceTree = "<group>";
+		};
+		BFAF2C891D6BA6530055CD76 /* Rainy Shiny Weather AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2C8A1D6BA6530055CD76 /* Rainy_Shiny_Weather_AppTests.swift */,
+				BFAF2C8C1D6BA6530055CD76 /* Info.plist */,
+			);
+			path = "Rainy Shiny Weather AppTests";
+			sourceTree = "<group>";
+		};
+		BFAF2C941D6BA6530055CD76 /* Rainy Shiny Weather AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2C951D6BA6530055CD76 /* Rainy_Shiny_Weather_AppUITests.swift */,
+				BFAF2C971D6BA6530055CD76 /* Info.plist */,
+			);
+			path = "Rainy Shiny Weather AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFAF2C711D6BA6530055CD76 /* Rainy Shiny Weather App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAF2C9A1D6BA6530055CD76 /* Build configuration list for PBXNativeTarget "Rainy Shiny Weather App" */;
+			buildPhases = (
+				BFAF2C6E1D6BA6530055CD76 /* Sources */,
+				BFAF2C6F1D6BA6530055CD76 /* Frameworks */,
+				BFAF2C701D6BA6530055CD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rainy Shiny Weather App";
+			productName = "Rainy Shiny Weather App";
+			productReference = BFAF2C721D6BA6530055CD76 /* Rainy Shiny Weather App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFAF2C851D6BA6530055CD76 /* Rainy Shiny Weather AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAF2C9D1D6BA6530055CD76 /* Build configuration list for PBXNativeTarget "Rainy Shiny Weather AppTests" */;
+			buildPhases = (
+				BFAF2C821D6BA6530055CD76 /* Sources */,
+				BFAF2C831D6BA6530055CD76 /* Frameworks */,
+				BFAF2C841D6BA6530055CD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAF2C881D6BA6530055CD76 /* PBXTargetDependency */,
+			);
+			name = "Rainy Shiny Weather AppTests";
+			productName = "Rainy Shiny Weather AppTests";
+			productReference = BFAF2C861D6BA6530055CD76 /* Rainy Shiny Weather AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFAF2C901D6BA6530055CD76 /* Rainy Shiny Weather AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAF2CA01D6BA6530055CD76 /* Build configuration list for PBXNativeTarget "Rainy Shiny Weather AppUITests" */;
+			buildPhases = (
+				BFAF2C8D1D6BA6530055CD76 /* Sources */,
+				BFAF2C8E1D6BA6530055CD76 /* Frameworks */,
+				BFAF2C8F1D6BA6530055CD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAF2C931D6BA6530055CD76 /* PBXTargetDependency */,
+			);
+			name = "Rainy Shiny Weather AppUITests";
+			productName = "Rainy Shiny Weather AppUITests";
+			productReference = BFAF2C911D6BA6530055CD76 /* Rainy Shiny Weather AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFAF2C6A1D6BA6530055CD76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kyle Nakamura";
+				TargetAttributes = {
+					BFAF2C711D6BA6530055CD76 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7GDSF452LB;
+						ProvisioningStyle = Automatic;
+					};
+					BFAF2C851D6BA6530055CD76 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7GDSF452LB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFAF2C711D6BA6530055CD76;
+					};
+					BFAF2C901D6BA6530055CD76 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7GDSF452LB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFAF2C711D6BA6530055CD76;
+					};
+				};
+			};
+			buildConfigurationList = BFAF2C6D1D6BA6530055CD76 /* Build configuration list for PBXProject "Rainy Shiny Weather App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFAF2C691D6BA6530055CD76;
+			productRefGroup = BFAF2C731D6BA6530055CD76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFAF2C711D6BA6530055CD76 /* Rainy Shiny Weather App */,
+				BFAF2C851D6BA6530055CD76 /* Rainy Shiny Weather AppTests */,
+				BFAF2C901D6BA6530055CD76 /* Rainy Shiny Weather AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFAF2C701D6BA6530055CD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF2C801D6BA6530055CD76 /* LaunchScreen.storyboard in Resources */,
+				BFAF2C7D1D6BA6530055CD76 /* Assets.xcassets in Resources */,
+				BFAF2C7B1D6BA6530055CD76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2C841D6BA6530055CD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2C8F1D6BA6530055CD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFAF2C6E1D6BA6530055CD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF2C781D6BA6530055CD76 /* ViewController.swift in Sources */,
+				BFAF2C761D6BA6530055CD76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2C821D6BA6530055CD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF2C8B1D6BA6530055CD76 /* Rainy_Shiny_Weather_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF2C8D1D6BA6530055CD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF2C961D6BA6530055CD76 /* Rainy_Shiny_Weather_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFAF2C881D6BA6530055CD76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAF2C711D6BA6530055CD76 /* Rainy Shiny Weather App */;
+			targetProxy = BFAF2C871D6BA6530055CD76 /* PBXContainerItemProxy */;
+		};
+		BFAF2C931D6BA6530055CD76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAF2C711D6BA6530055CD76 /* Rainy Shiny Weather App */;
+			targetProxy = BFAF2C921D6BA6530055CD76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFAF2C791D6BA6530055CD76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAF2C7A1D6BA6530055CD76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFAF2C7E1D6BA6530055CD76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAF2C7F1D6BA6530055CD76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFAF2C981D6BA6530055CD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFAF2C991D6BA6530055CD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFAF2C9B1D6BA6530055CD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7GDSF452LB;
+				INFOPLIST_FILE = "Rainy Shiny Weather App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyleNakamura.Rainy-Shiny-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFAF2C9C1D6BA6530055CD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7GDSF452LB;
+				INFOPLIST_FILE = "Rainy Shiny Weather App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyleNakamura.Rainy-Shiny-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BFAF2C9E1D6BA6530055CD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7GDSF452LB;
+				INFOPLIST_FILE = "Rainy Shiny Weather AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyleNakamura.Rainy-Shiny-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainy Shiny Weather App.app/Rainy Shiny Weather App";
+			};
+			name = Debug;
+		};
+		BFAF2C9F1D6BA6530055CD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7GDSF452LB;
+				INFOPLIST_FILE = "Rainy Shiny Weather AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyleNakamura.Rainy-Shiny-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainy Shiny Weather App.app/Rainy Shiny Weather App";
+			};
+			name = Release;
+		};
+		BFAF2CA11D6BA6530055CD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7GDSF452LB;
+				INFOPLIST_FILE = "Rainy Shiny Weather AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyleNakamura.Rainy-Shiny-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rainy Shiny Weather App";
+			};
+			name = Debug;
+		};
+		BFAF2CA21D6BA6530055CD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7GDSF452LB;
+				INFOPLIST_FILE = "Rainy Shiny Weather AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyleNakamura.Rainy-Shiny-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Rainy Shiny Weather App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFAF2C6D1D6BA6530055CD76 /* Build configuration list for PBXProject "Rainy Shiny Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAF2C981D6BA6530055CD76 /* Debug */,
+				BFAF2C991D6BA6530055CD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAF2C9A1D6BA6530055CD76 /* Build configuration list for PBXNativeTarget "Rainy Shiny Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAF2C9B1D6BA6530055CD76 /* Debug */,
+				BFAF2C9C1D6BA6530055CD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFAF2C9D1D6BA6530055CD76 /* Build configuration list for PBXNativeTarget "Rainy Shiny Weather AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAF2C9E1D6BA6530055CD76 /* Debug */,
+				BFAF2C9F1D6BA6530055CD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFAF2CA01D6BA6530055CD76 /* Build configuration list for PBXNativeTarget "Rainy Shiny Weather AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAF2CA11D6BA6530055CD76 /* Debug */,
+				BFAF2CA21D6BA6530055CD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFAF2C6A1D6BA6530055CD76 /* Project object */;
+}
